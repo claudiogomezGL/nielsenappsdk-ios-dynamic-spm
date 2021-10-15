@@ -8,21 +8,27 @@ let package = Package(
     products: [
         .library(
             name: "NielsenAppApi",
+            type: .dynamic,
             targets: ["NielsenAppApi"]),
         .library(
             name: "NielsenNoAdAppApi",
+            type: .dynamic,
             targets: ["NielsenNoAdAppApi"]),
         .library(
             name: "NielsenNoIdAppApi",
+            type: .dynamic,
             targets: ["NielsenNoIdAppApi"]),
         .library(
             name: "NielsenAGFAppApi",
+            type: .dynamic,
             targets: ["NielsenAGFAppApi"]),
         .library(
             name: "NielsenAGFNoAdAppApi",
+            type: .dynamic,
             targets: ["NielsenAGFNoAdAppApi"]),
         .library(
             name: "NielsenAGFNoIdAppApi",
+            type: .dynamic,
             targets: ["NielsenAGFNoIdAppApi"])
     ],
     dependencies: [
